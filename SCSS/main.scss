@@ -1,0 +1,13 @@
+@import '_variables';
+@import '_base';
+
+body{
+  font-family: 'Domine', serif;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.info{
+  background-color: $background-color1;
+  color: white;
+}
