@@ -112,5 +112,19 @@ color: $font-color2;
   background-color: $background-color3;
   text-align: center;
   padding-bottom: 4rem;
+  padding-top: 4rem;
+
+  a{
+    font-size: 3rem;
+    text-decoration: none;
+
+    &.hover{
+      color: $hover-color1;
+    }
+
+    &.active{
+      opacity: .5;
+    }
+  }
 
 }
