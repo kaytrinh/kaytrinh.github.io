@@ -11,3 +11,24 @@ body{
   background-color: $background-color1;
   color: white;
 }
+
+.section1{
+margin-right: 50px;
+
+
+    h1{
+      padding-top: 2rem;
+      padding-left: 3rem;
+      font-size: 6rem;
+      padding-bottom: 0;
+    }
+
+    p{
+      font-size: 1rem;
+      padding-top: 1rem;
+    }
+
+    h1,p{
+    padding-left: 3rem;
+    }
+}
