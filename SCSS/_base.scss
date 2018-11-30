@@ -1,0 +1,43 @@
+html { font-size: 100%; }
+
+%remove-margins{
+  margin: 0;
+}
+
+body{
+    font-family: 'Domine', serif;
+    font-size: 1.6rem;
+  
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+html {
+  // Extra small devices (portrait phones)
+  @media (max-width: 575.98px) {
+    font-size: 65%;
+  }
+  // Small devices (landscape phones)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 70%;
+  }
+  // Medium devices (tablets)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 80%;
+  }
+  // Large devices (desktops)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    font-size: 100%;
+  }
+  // Extra large devices (large desktops)
+  @media (min-width: 1200px) {
+    font-size: 100%;
+  }
+}
