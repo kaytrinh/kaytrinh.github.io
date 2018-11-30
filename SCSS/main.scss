@@ -65,8 +65,27 @@ color: $font-color2;
     i{
       font-size: 1rem;
     }
+
+    a{
+      text-decoration: none;
+
+      p{
+        &.basic-link{
+          color: $font-color2;
+        }
+
+        &.hover{
+          color: $hover-color1;
+        }
+
+        &.active{
+          opacity: .5;
+        }
+      }
+    }
   }
 }
+
 
 .job1, .job2, .job3{
   padding-right: 4rem;
