@@ -68,9 +68,10 @@ color: $font-color2;
 
     a{
       text-decoration: none;
+      color: $font-color2;
 
         &.basic-link{
-          color: $font-color2;
+
         }
 
         &:hover{
