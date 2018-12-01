@@ -74,11 +74,11 @@ color: $font-color2;
           color: $font-color2;
         }
 
-        &.hover{
+        &:hover{
           color: $hover-color1;
         }
 
-        &.active{
+        &:active{
           opacity: .5;
         }
       }
