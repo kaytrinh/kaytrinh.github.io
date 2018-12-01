@@ -69,7 +69,6 @@ color: $font-color2;
     a{
       text-decoration: none;
 
-      p{
         &.basic-link{
           color: $font-color2;
         }
@@ -81,7 +80,6 @@ color: $font-color2;
         &:active{
           opacity: .5;
         }
-      }
     }
   }
 }
