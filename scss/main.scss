@@ -1,6 +1,28 @@
 @import '_variables';
 @import '_base';
 
+#navbar {
+  background-color: transparent; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  width: 100%; /* Full width */
+  transition: ease all 0.5s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0rem;
+  margin-right: 2.5rem;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  opacity: .5;
+}
+
+
 .row1{
   display: flex;
 }
@@ -68,7 +90,7 @@ color: $font-color2;
 
     a{
       text-decoration: none;
-      color: $font-color2;
+      color: $font-color1;
 
         &.basic-link{
 
@@ -116,12 +138,13 @@ color: $font-color2;
   a{
     font-size: 3rem;
     text-decoration: none;
+    color: $font-color1;
 
-    &.hover{
+    &:hover{
       color: $hover-color1;
     }
 
-    &.active{
+    &:active{
       opacity: .5;
     }
   }
