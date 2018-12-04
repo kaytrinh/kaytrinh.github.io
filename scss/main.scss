@@ -67,21 +67,18 @@ color: $font-color2;
   top: 0;
   width: 100%;
 }
-.sticky + .content {
-  padding-top: 60px;
+.sticky + #content {
+  padding-top: 75px;
 }
 
 .info{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 6rem;
-  color: black
+  color: black;
 }
 
 .experience{
   background-color: $background-color3;
-  padding-left: 6rem;
-  padding-right: 6rem;
   padding-top: 5rem;
   padding-bottom: 2rem;
 
@@ -95,7 +92,7 @@ color: $font-color2;
     background-color: #ccc;
   }
 
-.info{
+.jobdescrip{
   padding: 2rem;
   display: none;
   overflow: hidden
@@ -142,7 +139,6 @@ color: $font-color2;
 }
 
 .section4{
-  padding-left: 6rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
 

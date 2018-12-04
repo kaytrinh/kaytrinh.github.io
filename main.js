@@ -3,13 +3,16 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+    // $(".content").css("padding-top", "7.5rem")
   } else {
     navbar.classList.remove("sticky");
-  });
-});
+    // $("#content").css("padding-top", "0")
 
-var acc = document.getElementsByClassName("job");
+  }
+}
+
+/*var acc = document.getElementsByClassName("job");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -22,10 +25,10 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
-}
-/*$(".job").each(function() {
+}*/
+$(".job").each(function() {
 
-  $(this.click(function() {
+  $(this).click(function() {
 
     $(this).toggleClass("active");
 
@@ -33,4 +36,3 @@ for (i = 0; i < acc.length; i++) {
 
   });
 });
-*/
