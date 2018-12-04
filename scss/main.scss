@@ -46,6 +46,7 @@ color: $font-color2;
   transition: ease all 0.5s;
   text-align: center;
   padding-bottom: .2rem;
+  z-index: 10;
 }
 
 #navbar a {
@@ -72,9 +73,14 @@ color: $font-color2;
 }
 
 .info{
+  h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: black;
+  font-size: 1.4rem;
 }
 
 .experience{
@@ -89,7 +95,7 @@ color: $font-color2;
   }
 
   .job.active, .job:hover {
-    background-color: #ccc;
+    background-color: #41d8ab;
   }
 
 .jobdescrip{
