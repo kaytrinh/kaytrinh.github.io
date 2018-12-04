@@ -157,6 +157,20 @@ color: $font-color2;
 
 }
 
+.VNMAP, .VSA{
+  h3{
+    padding-top: 4rem;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+    padding-top: 7rem;
+    margin: 0;
+    padding-bottom: 3rem;
+  }
+  padding-bottom: 4rem;
+}
+
 .footer{
   background-color: $background-color3;
   text-align: center;
